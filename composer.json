@@ -1,0 +1,23 @@
+{
+  "name": "bitbirddev/trustkey-webhook-bundle",
+  "type": "symfony-bundle",
+  "require": {
+    "symfony/webhook": "^6.0|^7.0",
+    "symfony/http-foundation": "^6.0|^7.0",
+    "symfony/remote-event": "^6.0|^7.0",
+    "symfony/dependency-injection": "^6.0|^7.0",
+    "symfony/config": "^6.0|^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "bitbirddev\\TrustkeyWebhookBundle\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "bitbird development",
+      "email": "bs@bitbird.de"
+    }
+  ],
+  "minimum-stability": "stable"
+}

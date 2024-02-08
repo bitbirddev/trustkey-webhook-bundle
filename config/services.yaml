@@ -1,0 +1,9 @@
+services:
+  _defaults:
+    autoconfigure: true
+    autowire: true
+
+  bitbirddev\TrustkeyWebhookBundle\:
+    resource: "../src/"
+    exclude:
+      - "../src/DependencyInjection/"

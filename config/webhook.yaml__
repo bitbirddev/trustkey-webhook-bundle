@@ -1,0 +1,7 @@
+framework:
+  webhook:
+    routing:
+      trustkey:
+        service: "bitbirddev.webhook.request_parser.trustkey"
+        secret: "123"
+        # secret: '%env(TRUSTKEY_WEBHOOK_SECRET)%'
